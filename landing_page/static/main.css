@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background: #303030;
+}
+
+a, h1, p {
+    color: #f9f9f9;
+}
+
+
+img {
+    width: 200px;
+    height: 600px;
+    display: inline-block;
+
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+p {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+}
+
+input[type='text'], input[type='submit'] {
+    color:#f9f9f9;
+    display: block;
+}
