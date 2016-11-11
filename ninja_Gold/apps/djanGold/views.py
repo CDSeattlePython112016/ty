@@ -25,7 +25,6 @@ def addActivity(request, num, action, location):
 def index(request):
     if 'ninjagold' not in request.session:
         request.session['ninjagold'] = 0
-    if 'activity' not in request.session:
         request.session['activity'] = []
     return render(request, 'djanGold/index.html')
 
